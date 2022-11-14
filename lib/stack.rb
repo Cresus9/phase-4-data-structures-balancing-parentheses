@@ -20,4 +20,15 @@ class Stack
     @stack.length
   end
 
+  def balancing_parentheses(str)
+    def check
+      if ( str.includes?{() ()})
+      return true 
+    else 
+      false
+    end
+  end
+
+  end
+
 end
